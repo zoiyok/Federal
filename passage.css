@@ -164,7 +164,7 @@
 
     @font-face {
         font-family: 'SimFang';
-        src: url('simsun.ttf')  format('truetype'), /* Safari, Android, iOS */
+        src: url('simfang.ttf')  format('truetype'), /* Safari, Android, iOS */
     }
     
     .passage_main,.passage_tail{
