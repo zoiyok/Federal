@@ -318,14 +318,10 @@
         font-size: 12px;
         float: right;
         width: 100px;
-        line-height: 30px;
+        line-height: 32px;
         text-align: center;
         margin-top: 42px;
         margin-right: 10px;
-    }
-
-    .passage:hover{
-        background-color: rgb(212, 212, 212);
     }
 
     .nav_btm{
