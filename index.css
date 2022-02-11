@@ -3,175 +3,347 @@
     font-family: '微软雅黑';
 }
 
-body{
-    min-width: 1200px;
-    background-color: rgb(238, 238, 238);
+@media (min-width: 768px) {
+
+    body{
+        min-width: 1200px;
+        background-color: rgb(238, 238, 238);
+    }
+
+    .top{
+        background-color: rgb(0, 73, 141);
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        color: white;
+        font-weight: bold;
+        font-family: '微软雅黑';
+        font-size: 20px;
+        user-select: none;
+    }
+
+    .president{
+        color: rgba(146, 0, 0, 0.63);
+        font-size: 10px;
+        border: 1px solid rgba(146, 0, 0, 0.63);
+        border-radius: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        float: right;
+        height: 20px;
+        margin-top: 15px;
+        line-height: 20px;
+        margin-right: 80px;
+        text-align: center;
+    }
+
+    .test{
+        color: rgba(153, 82, 0, 0.63);
+        font-size: 10px;
+        border: 1px solid rgba(153, 82, 0, 0.63);
+        border-radius: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        float: right;
+        height: 20px;
+        margin-top: 15px;
+        line-height: 20px;
+        margin-right: 80px;
+        text-align: center;
+
+    }
+
+    .nav{
+        background-color: rgb(0, 73, 141);
+        height: 70px;
+        text-align: center;
+        line-height: 70px;
+        color: white;
+        font-family: '微软雅黑';
+        font-size: 17px;
+    }
+
+    .nav1{
+        width: 1260px;
+        margin: 0 auto;
+    }
+
+    .nav2{
+        float: left;
+        width: 210px;
+    }
+
+    .nav2:hover{
+        background-color: rgb(0, 58, 112);
+        cursor: pointer;
+    }
+
+    .home{
+        background-color: rgb(238, 238, 238);
+        width: 1262px;
+        margin: 0 auto;
+        cursor: auto;
+        user-select: none;
+    }
+
+    .home-top{
+        height: 50px;
+        /* background-color: #bfa; */
+        padding-left: 80px;
+        line-height: 50px;
+        font-size: 14px;
+
+    }
+
+    .home-top-department{
+        margin-left: 570px;
+    }
+
+    .passage_line{
+        height: 1px;
+        background-color: rgb(167, 167, 167);
+        width: 1100px;
+        margin:  0 auto;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .home-top-info{
+        margin-left: 125px;
+    }
+
+    .home-top-time{
+        margin-left: 135px;
+    }
+
+    .passage{
+        margin: 0 auto;
+        height: 50px;
+        font-size: 15px;
+        padding-left: 80px;
+        line-height: 50px;
+        margin-left: 0;
+        cursor: pointer;
+    }
+
+    .passage-department{
+        color: rgb(0, 105, 204);
+        font-size: 10px;
+        border: 1px solid rgb(0, 105, 204);
+        border-radius: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        float: right;
+        height: 20px;
+        margin-top: 15px;
+        line-height: 20px;
+        margin-right: 80px;
+        text-align: center;
+    }
+
+    .passage-info{
+        padding-left: 5px;
+        padding-right: 5px;
+        float: right;
+        color: rgb(117, 117, 117);
+        height: 20px;
+        margin-top: 15px;
+        line-height: 20px;
+        margin-right: 80px;
+    }
+
+    .passage-time{
+        padding-left: 5px;
+        padding-right: 5px;
+        float: right;
+        color: rgb(117, 117, 117);
+        height: 20px;
+        margin-top: 15px;
+        line-height: 20px;
+        margin-right: 75px;
+    }
+
+    .passage:hover{
+        background-color: rgb(212, 212, 212);
+    }
+
+    .nav_btm{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(0, 73, 141);
+        margin-top: 30px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.87);
+        line-height: 60px;
+        font-size: small;
+    }
+
 }
 
-.top{
-    background-color: rgb(0, 73, 141);
-    height: 60px;
-    text-align: center;
-    line-height: 60px;
-    color: white;
-    font-weight: bold;
-    font-family: '微软雅黑';
-    font-size: 20px;
-    user-select: none;
-}
+@media (max-width: 768px) {
+    body{
+        background-color: rgb(238, 238, 238);
+    }
 
-.president{
-    color: rgba(146, 0, 0, 0.63);
-    font-size: 10px;
-    border: 1px solid rgba(146, 0, 0, 0.63);
-    border-radius: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    float: right;
-    height: 20px;
-    margin-top: 15px;
-    line-height: 20px;
-    margin-right: 80px;
-    text-align: center;
-}
+    .top{
+        width: 100%;
+        background-color: rgb(0, 73, 141);
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        color: white;
+        font-weight: bold;
+        font-family: '微软雅黑';
+        font-size: 18px;
+    }
 
-.test{
-    color: rgba(153, 82, 0, 0.63);
-    font-size: 10px;
-    border: 1px solid rgba(153, 82, 0, 0.63);
-    border-radius: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    float: right;
-    height: 20px;
-    margin-top: 15px;
-    line-height: 20px;
-    margin-right: 80px;
-    text-align: center;
+    .president{
+        color: rgb(185, 185, 185);
+        font-size: 6px;
+        display: block;
+        width: 100px;
+        line-height: 15px;
+        text-align: center;
+    }
 
-}
+    .test{
+        color: rgb(185, 185, 185);
+        font-size: 6px;
+        display: block;
+        width: 100px;
+        line-height: 15px;
+        text-align: center;
 
-.nav{
-    background-color: rgb(0, 73, 141);
-    height: 70px;
-    text-align: center;
-    line-height: 70px;
-    color: white;
-    font-family: '微软雅黑';
-    font-size: 17px;
-}
+    }
 
-.nav1{
-    width: 1260px;
-    margin: 0 auto;
-}
+    .nav{
+        background-color: rgb(0, 73, 141);
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        color: white;
+        font-family: '微软雅黑';
+        font-size: 17px;
+    }
 
-.nav2{
-    float: left;
-    width: 210px;
-}
+    .nav1{
+        width: 100%;
+        margin: 0 auto;
+    }
 
-.nav2:hover{
-    background-color: rgb(0, 58, 112);
-    cursor: pointer;
-}
+    .nav2{
+        float: left;
+        width: 16.6%;
+        font-size: small;
+    }
 
-.home{
-    background-color: rgb(238, 238, 238);
-    width: 1262px;
-    margin: 0 auto;
-    cursor: auto;
-    user-select: none;
-}
+    .nav2:hover{
+        background-color: rgb(0, 58, 112);
+        cursor: pointer;
+    }
 
-.home-top{
-    height: 50px;
-    /* background-color: #bfa; */
-    padding-left: 80px;
-    line-height: 50px;
-    font-size: 14px;
+    .home{
+        background-color: rgb(238, 238, 238);
+        width: 100%;
+        margin: 0 auto;
+        cursor: auto;
+        user-select: none;
+    }
 
-}
+    .home-top{
+        height: 50px;
+        /* background-color: #bfa; */
+        padding-left: 10px;
+        line-height: 50px;
+        font-size: 14px;
+        display: none;
+    }
 
-.home-top-department{
-    margin-left: 570px;
-}
+    .home-top-department{
+        /* margin-left: 570px; */
+    }
 
-.passage_line{
-    height: 1px;
-    background-color: rgb(167, 167, 167);
-    width: 1100px;
-    margin:  0 auto;
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
+    .passage_line{
+        height: 1px;
+        background-color: rgb(167, 167, 167);
+        width: 98%;
+        margin:  0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: none;
+    }
 
-.home-top-info{
-    margin-left: 125px;
-}
+    .home-top-info{
+        /* margin-left: 125px; */
+    }
 
-.home-top-time{
-    margin-left: 135px;
-}
+    .home-top-time{
+        /* margin-left: 135px; */
+    }
 
-.passage{
-    margin: 0 auto;
-    height: 50px;
-    font-size: 15px;
-    padding-left: 80px;
-    line-height: 50px;
-    margin-left: 0;
-    cursor: pointer;
-}
+    .passage{
+        margin: 0 auto;
+        height: 70px;
+        font-size: 16px;
+        padding-left: 20px;
+        padding-top: 5px;
+        line-height: 40px;
+        cursor: pointer;
+        background-color: rgb(246, 246, 246);
+        margin-top: 10px;
+        width: 90%;
+        border-radius: 10px;
+    }
 
-.passage-department{
-    color: rgb(0, 105, 204);
-    font-size: 10px;
-    border: 1px solid rgb(0, 105, 204);
-    border-radius: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    float: right;
-    height: 20px;
-    margin-top: 15px;
-    line-height: 20px;
-    margin-right: 80px;
-    text-align: center;
-}
+    .passage-title{
+        font-weight: bold;
+    }
 
-.passage-info{
-    padding-left: 5px;
-    padding-right: 5px;
-    float: right;
-    color: rgb(117, 117, 117);
-    height: 20px;
-    margin-top: 15px;
-    line-height: 20px;
-    margin-right: 80px;
-}
+    .passage-department{
+        color: rgb(185, 185, 185);
+        font-size: 6px;
+        display: block;
+        width: 100px;
+        line-height: 15px;
+        text-align: center;
+        /* display: none; */
+    }
 
-.passage-time{
-    padding-left: 5px;
-    padding-right: 5px;
-    float: right;
-    color: rgb(117, 117, 117);
-    height: 20px;
-    margin-top: 15px;
-    line-height: 20px;
-    margin-right: 75px;
-}
+    .passage-info{
+        padding-left: 5px;
+        padding-right: 5px;
+        float: right;
+        color: rgb(117, 117, 117);
+        height: 20px;
+        margin-top: 15px;
+        line-height: 20px;
+        margin-right: 80px;
+        display: none;
+    }
 
-.passage:hover{
-    background-color: rgb(212, 212, 212);
-}
+    .passage-time{
+        color: rgb(185, 185, 185);
+        font-size: 6px;
+        float: right;
+        width: 100px;
+        line-height: 15px;
+        text-align: center;
+        margin-top: 42px;
+        margin-right: 10px;
+    }
 
-.nav_btm{
-    width: 100%;
-    height: 60px;
-    background-color: rgb(0, 73, 141);
-    margin-top: 30px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.87);
-    line-height: 60px;
-    font-size: small;
+    .passage:hover{
+        background-color: rgb(212, 212, 212);
+    }
+
+    .nav_btm{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(0, 73, 141);
+        margin-top: 30px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.87);
+        line-height: 60px;
+        font-size: small;
+    }
 }
