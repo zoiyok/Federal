@@ -199,7 +199,7 @@
 
     .president{
         color: rgb(185, 185, 185);
-        font-size: 6px;
+        font-size: 12px;
         display: block;
         width: 100px;
         line-height: 15px;
@@ -208,7 +208,7 @@
 
     .test{
         color: rgb(185, 185, 185);
-        font-size: 6px;
+        font-size: 12px;
         display: block;
         width: 100px;
         line-height: 15px;
@@ -318,7 +318,7 @@
         font-size: 12px;
         float: right;
         width: 100px;
-        line-height: 15px;
+        line-height: 30px;
         text-align: center;
         margin-top: 42px;
         margin-right: 10px;
