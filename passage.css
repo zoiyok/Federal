@@ -139,7 +139,7 @@
 
     .passage_info{
         text-align: center;
-        font-size: 1vh;
+        font-size: 2vh;
         color: rgb(121, 121, 121);
     }
 
@@ -158,6 +158,7 @@
 /*         font-family: '仿宋';
         font-size: 16px;
         line-height: 28px; */
+        line-height: 28px;
     }
 
     .nav_btm{
