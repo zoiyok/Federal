@@ -310,20 +310,12 @@
     }
 
     .passage-info{
-        padding-left: 5px;
-        padding-right: 5px;
-        float: right;
-        color: rgb(117, 117, 117);
-        height: 20px;
-        margin-top: 15px;
-        line-height: 20px;
-        margin-right: 80px;
         display: none;
     }
 
     .passage-time{
         color: rgb(185, 185, 185);
-        font-size: 6px;
+        font-size: 12px;
         float: right;
         width: 100px;
         line-height: 15px;
