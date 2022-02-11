@@ -111,6 +111,7 @@
         font-weight: bold;
         font-family: '微软雅黑';
         font-size: 18px;
+        user-select: none;
     }
 
     .nav{
@@ -121,17 +122,20 @@
         color: white;
         font-family: '微软雅黑';
         font-size: 17px;
+        user-select: none;
     }
 
     .nav1{
         width: 100%;
         margin: 0 auto;
+        user-select: none;
     }
 
     .nav2{
         float: left;
         width: 16.6%;
         font-size: small;
+        user-select: none;
     }
 
     .passage_title{
