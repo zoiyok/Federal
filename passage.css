@@ -30,13 +30,13 @@ body{
 }
 
 .nav1{
-    width: 1200px;
+    width: 1260px;
     margin: 0 auto;
 }
 
 .nav2{
     float: left;
-    width: 200px;
+    width: 210px;
 }
 
 .nav2:hover{
