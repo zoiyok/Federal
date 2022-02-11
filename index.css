@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: '微软雅黑';
+    user-select: none;
 }
 
 @media (min-width: 768px) {
