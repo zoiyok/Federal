@@ -132,14 +132,14 @@
         text-align: center;
         height: 60px;
         line-height: 60px;
-        font-size: 20px;
+        font-size: 2.5vh;
         font-weight: bold;
         color: rgb(65, 65, 65);
     }
 
     .passage_info{
         text-align: center;
-        font-size: 1.3vh;
+        font-size: 1.4vh;
         color: rgb(121, 121, 121);
     }
 
@@ -155,10 +155,8 @@
     .passage_main,.passage_tail{
         width: 88%;
         margin: 0 auto;
-/*         font-family: '仿宋';
-        font-size: 16px;
-        line-height: 28px; */
         line-height: 28px;
+        font-size: 2vh;
     }
 
     .nav_btm{
