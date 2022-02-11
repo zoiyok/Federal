@@ -62,13 +62,13 @@ body{
 }
 
 .nav1{
-    width: 1200px;
+    width: 1260px;
     margin: 0 auto;
 }
 
 .nav2{
     float: left;
-    width: 200px;
+    width: 210px;
 }
 
 .nav2:hover{
@@ -78,7 +78,7 @@ body{
 
 .home{
     background-color: rgb(238, 238, 238);
-    width: 1200px;
+    width: 1262px;
     margin: 0 auto;
     cursor: auto;
     user-select: none;
@@ -94,7 +94,7 @@ body{
 }
 
 .home-top-department{
-    margin-left: 485px;
+    margin-left: 545px;
 }
 
 .passage_line{
@@ -116,11 +116,11 @@ body{
 
 .passage{
     margin: 0 auto;
-    /* text-align: center; */
     height: 50px;
     font-size: 15px;
     padding-left: 80px;
     line-height: 50px;
+    margin-left: 0;
     cursor: pointer;
 }
 
