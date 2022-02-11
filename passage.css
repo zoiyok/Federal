@@ -155,9 +155,9 @@
     .passage_main,.passage_tail{
         width: 88%;
         margin: 0 auto;
-        font-family: '仿宋';
+/*         font-family: '仿宋';
         font-size: 16px;
-        line-height: 28px;
+        line-height: 28px; */
     }
 
     .nav_btm{
