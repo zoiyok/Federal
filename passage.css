@@ -162,10 +162,15 @@
         margin-bottom: 10px;
     }
 
+    @font-face {
+        font-family: 'SimFang';
+        src: url('simsun.ttf')  format('truetype'), /* Safari, Android, iOS */
+    }
+    
     .passage_main,.passage_tail{
         width: 88%;
         margin: 0 auto;
-        font-family: '仿宋';
+        font-family: 'SimFang';
         font-size: 16px;
         line-height: 28px;
     }
