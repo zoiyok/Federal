@@ -283,11 +283,11 @@
 
     .passage{
         margin: 0 auto;
-        height: 70px;
+        height: 80px;
         font-size: 16px;
         padding-left: 20px;
         padding-top: 5px;
-        line-height: 40px;
+        line-height: 50px;
         cursor: pointer;
         background-color: rgb(246, 246, 246);
         margin-top: 10px;
