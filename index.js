@@ -14,18 +14,14 @@ function ShowHome() {
 var tt = 40;
 window.onscroll = function(){
     var t = document.documentElement.scrollTop || document.body.scrollTop;
-    if (t > tt && window.screen.width > '768px') {
+    if (t > tt && window.screen.width < '768px') {
         lplp.style.height = "50px";
         lplp.style.lineHeight = "50px";
         logoid.style.paddingBottom = "15px";
-    } else if (t < tt && window.screen.width > '768px') {
+    } else if (t < tt && window.screen.width < '768px') {
         lplp.style.lineHeight = "70px";
         lplp.style.height = "70px";
         logoid.style.paddingBottom = "20px";
-    }
-    if(window.screen.width < '768px'){
-        lplp.style.position = "sticky";
-        lplp.style.top = "0px";
     }
 }
  
