@@ -133,6 +133,11 @@
         font-size: 18px;
         user-select: none;
     }
+    
+    p{
+        padding: 5px 0;
+        font-family: '仿宋';
+    }
 
     .nav{
         background-color: rgb(0, 73, 141);
