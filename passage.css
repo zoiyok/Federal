@@ -3,6 +3,10 @@
     font-family: '微软雅黑';
 }
 
+.passage-main{
+    padding: 10px 0;
+}
+
 @media (min-width: 768px) {
     body{
         min-width: 1200px;
