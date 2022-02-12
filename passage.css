@@ -176,6 +176,10 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    
+    .logo{
+        display:none;
+    }
 
     @font-face {
         font-family: 'SimFang';
