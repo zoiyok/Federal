@@ -14,11 +14,11 @@ function ShowHome() {
 var tt = 40;
 window.onscroll = function(){
     var t = document.documentElement.scrollTop || document.body.scrollTop;
-    if (t > tt) {
+    if (t > tt && window.screen.width < '768px') {
         lplp.style.height = "50px";
         lplp.style.lineHeight = "50px";
         logoid.style.paddingBottom = "15px";
-    } else if (t < tt) {
+    } else if (t < tt && window.screen.width < '768px') {
         lplp.style.lineHeight = "70px";
         lplp.style.height = "70px";
         logoid.style.paddingBottom = "20px";
