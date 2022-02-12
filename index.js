@@ -23,5 +23,9 @@ window.onscroll = function(){
         lplp.style.height = "70px";
         logoid.style.paddingBottom = "20px";
     }
+    if(window.screen.width < '768px'){
+        lplp.style.position = "sticky";
+        lplp.style.top = "0px";
+    }
 }
  
