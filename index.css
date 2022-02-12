@@ -240,6 +240,8 @@
         color: white;
         font-family: '微软雅黑';
         font-size: 17px;
+        position: sticky;
+        top: 0px;
     }
 
     .nav1{
