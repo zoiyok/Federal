@@ -15,14 +15,16 @@
 
     .top{
         background-color: rgb(0, 73, 141);
-        height: 60px;
+        height: 80px;
         text-align: center;
-        line-height: 60px;
+        line-height: 80px;
         color: white;
-        font-weight: bold;
-        font-family: '微软雅黑';
-        font-size: 20px;
+        font-family: '方正小标宋繁体';
+        font-size: 28px;
+        letter-spacing:6px;
         user-select: none;
+        position: relative;
+        z-index: 99;
     }
 
     .nav{
@@ -32,8 +34,10 @@
         line-height: 70px;
         color: white;
         font-family: '微软雅黑';
+        box-shadow: 0px 4px 10px #0000005b;
+        position: sticky;
         font-size: 17px;
-        user-select: none;
+        top: 0px;
     }
 
     .nav1{
@@ -44,6 +48,8 @@
     .nav2{
         float: left;
         width: 210px;
+        font-family: '华文中宋';
+        letter-spacing:5px;
     }
 
     .nav2:hover{
@@ -58,12 +64,21 @@
         font-size: 25px;
         font-weight: bold;
         color: rgb(65, 65, 65);
+        margin-top: 20px;
+        letter-spacing:3px;
     }
 
     .passage_info{
         text-align: center;
         font-size: 10px;
         color: rgb(121, 121, 121);
+    }
+
+    .logo{
+        width: 50px;
+        height: 40px;
+        margin-top: -90px;
+        padding-bottom: 20px;
     }
 
     .passage_line{

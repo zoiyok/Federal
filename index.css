@@ -8,19 +8,21 @@
 
     body{
         min-width: 1200px;
-        background-color: rgb(238, 238, 238);
+        background-color: rgb(245, 245, 245);
     }
 
     .top{
         background-color: rgb(0, 73, 141);
-        height: 60px;
+        height: 80px;
         text-align: center;
-        line-height: 60px;
+        line-height: 80px;
         color: white;
-        font-weight: bold;
-        font-family: '微软雅黑';
-        font-size: 20px;
+        font-family: '方正小标宋繁体';
+        font-size: 28px;
+        letter-spacing:6px;
         user-select: none;
+        position: relative;
+        z-index: 99;
     }
 
     .president{
@@ -61,7 +63,11 @@
         line-height: 70px;
         color: white;
         font-family: '微软雅黑';
+        box-shadow: 0px 4px 10px #0000005b;
+        position: sticky;
         font-size: 17px;
+        top: 0px;
+        transition: all 0.1s;
     }
 
     .nav1{
@@ -72,6 +78,8 @@
     .nav2{
         float: left;
         width: 210px;
+        font-family: '华文中宋';
+        letter-spacing:5px;
     }
 
     .nav2:hover{
@@ -79,8 +87,15 @@
         cursor: pointer;
     }
 
+    .logo{
+        width: 50px;
+        height: 40px;
+        margin-top: -90px;
+        padding-bottom: 20px;
+    }
+
     .home{
-        background-color: rgb(238, 238, 238);
+        background-color: rgb(245, 245, 245);
         width: 1262px;
         margin: 0 auto;
         cursor: auto;
