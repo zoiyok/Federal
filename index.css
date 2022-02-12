@@ -339,6 +339,10 @@
         margin-top: 42px;
         margin-right: 10px;
     }
+    
+    .logo{
+        display: none;
+    }
 
     .nav_btm{
         width: 100%;
