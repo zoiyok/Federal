@@ -3,10 +3,6 @@
     font-family: '微软雅黑';
 }
 
-.passage_main{
-    padding: 10px 0;
-}
-
 @media (min-width: 768px) {
     body{
         min-width: 1200px;
@@ -42,6 +38,11 @@
         position: sticky;
         font-size: 17px;
         top: 0px;
+    }
+    
+    p{
+        padding: 10px 0;
+        font-family: '仿宋';
     }
 
     .nav1{
