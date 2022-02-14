@@ -7,6 +7,9 @@ function open_passage_2021_27() {
 function open_2022_1_president() {
     window.location.href="2022_1_president.html";
 }
+function open_2022_2() {
+    window.location.href="2022_2.html";
+}
 function ShowHome() {
     window.location.href="index.html";
 }
