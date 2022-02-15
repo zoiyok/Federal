@@ -368,6 +368,7 @@
     
     .logo{
         display: none;
+        margin-top: -5px;
     }
 
     .tag{
