@@ -10,6 +10,9 @@ function open_2022_1_president() {
 function open_2022_2() {
     window.location.href="2022_2.html";
 }
+function open_2022_1_law() {
+    window.location.href="2022_1_law.html";
+}
 function ShowHome() {
     window.location.href="index.html";
 }

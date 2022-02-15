@@ -39,6 +39,15 @@
         margin-right: 80px;
         text-align: center;
     }
+
+    .tag{
+        color: rgb(165, 0, 0);
+        border: 1px solid rgb(165, 0, 0);
+        border-radius: 5px;
+        font-size: xx-small;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
     
     .passage-law{
         color: rgb(0, 102, 0);
@@ -332,7 +341,7 @@
         font-weight: bold;
     }
 
-    .passage-department{
+    .passage-department,.passage-law{
         color: rgb(185, 185, 185);
         font-size: 12px;
         display: block;
@@ -359,6 +368,15 @@
     
     .logo{
         display: none;
+    }
+
+    .tag{
+        color: rgb(165, 0, 0);
+        border: 1px solid rgb(165, 0, 0);
+        border-radius: 5px;
+        font-size: 12px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
 
     .nav_btm{

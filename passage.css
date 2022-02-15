@@ -90,6 +90,10 @@ li{
         padding-bottom: 20px;
     }
 
+    p1{
+        font-family: '黑体';
+    }
+
     .passage_line{
         height: 1px;
         background-color: rgb(167, 167, 167);
@@ -195,9 +199,8 @@ li{
         display:none;
     }
 
-    @font-face {
-        font-family: 'SimFang';
-        src: url('simfang.ttf')  format('truetype'), /* Safari, Android, iOS */
+    p1{
+        font-weight: bold;
     }
     
     .passage_main,.passage_tail{
