@@ -109,7 +109,7 @@
     .nav2:hover{
         background-color: rgb(0, 58, 112);
         cursor: pointer;
-        transition: all 0.2s;
+        transition: all 0.4s;
     }
 
     .logo{
