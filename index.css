@@ -206,6 +206,7 @@
 
     .passage:hover{
         background-color: rgb(212, 212, 212);
+        transition: all 0.2s;
     }
 
     .nav_btm{
