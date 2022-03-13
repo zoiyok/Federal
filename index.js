@@ -13,6 +13,9 @@ function open_2022_2() {
 function open_2022_3() {
     window.location.href="2022_3.html";
 }
+function open_2022_4() {
+    window.location.href="2022_4.html";
+}
 function open_2022_1_law() {
     window.location.href="2022_1_law.html";
 }
