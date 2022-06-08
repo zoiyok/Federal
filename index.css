@@ -358,7 +358,7 @@
         font-weight: bold;
     }
 
-    .passage-department,.passage-law{
+    .passage-department,.passage-law,,passage-sifa{
         color: rgb(185, 185, 185);
         font-size: 12px;
         display: block;
