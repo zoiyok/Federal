@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="passage.css">
+    <script src="index.js" type="text/javascript"></script>
+    <link rel="shortcut icon" href="favicon.ico"><linkrel="Bookmark" href="favicon.ico"></linkrel>
+    <link rel="stylesheet" href="iconfont.css">
+    <title>谨言慎行法-立法院</title>
+</head>
+<body>
+    <div class="top">新兰合众国 The Federal of Cinland</div>
+
+    <div class="nav" id="lplp">
+        <div class="nav1">
+            <div class="nav2" onclick="ShowHome()">首页</div>
+            <div class="nav2">立法院</div>
+            <div class="nav2">行政院</div>
+            <div class="nav2">司法院</div>
+            <div class="nav2">监察院</div>
+            <div class="nav2">考试院</div>
+            <img src="federal_logo.png" alt="" class="logo" id="logoid">
+        </div>
+    </div>
+
+    <div class="passage_title">谨言慎行法</div>
+    <div class="passage_info">发布方：新兰合众国立法院 &nbsp&nbsp[2022] 第2号 &nbsp&nbsp发布时间：2022年7月3日</div>
+    <div class="passage_line"></div> 
+    <div class="passage_main"><span style="font-weight: bold;">第一章 总叙</span><br>谨言慎行，勿将心事告与他人，可保联邦万安。多言必多失，须时刻提防小人泄密。心事仅留于心中即可，是墙皆透风。
+        <br><span style="font-weight: bold;">第二章 细则</span><br>谨言慎行法规定了行事之忌讳，其细则如下：
+        <ol>
+            <li>不可背后议论他人，即使为关系紧密之人亦不可相信</li>
+            <li>不可向涉及利益关系之人谈论心事，防止其泄密</li>
+            <li>针对此次事件，后续将不可向小人提及任何会损失联邦形象之事，仅提及无关痛痒之事即可</li>
+            <li>谨言慎行事关重大，为人生之必修课，经此事，定将牢记于心</li>
+        </ol>
+        <br>本法律即日起生效。
+    </div>
+ 
+    <div class="passage_line"></div>
+    
+    <div class="nav_btm">Copyright ©2021-2022 All rights reserved.</div>
+    
+</body>
+</html>
