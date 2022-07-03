@@ -97,8 +97,8 @@ li{
 
     p1{
         font-family: '黑体';
-        padding-top: 40px;
-        padding-bottom: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .passage_line{
