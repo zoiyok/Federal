@@ -254,7 +254,7 @@
         font-size: 18px;
     }
 
-    .president,.passage-law,.passage-department{
+    .president,.passage-law,.passage-department,.passage-sifa{
         color: rgb(185, 185, 185);
         font-size: 12px;
         display: block;
@@ -356,10 +356,10 @@
 
     .passage-title{
         font-weight: bold;
-        white-space: nowrap;
         overflow: hidden;
-        text-overflow: ellipsis;
-        max-width: 200px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
     }
 
     .passage-department,.passage-law,,passage-sifa{
