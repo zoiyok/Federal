@@ -185,6 +185,12 @@ li{
         font-weight: bold;
         color: rgb(65, 65, 65);
     }
+    
+    
+    .title{
+        font-size: large;
+        font-weight: bold;
+    }
 
     .passage_info{
         text-align: center;
