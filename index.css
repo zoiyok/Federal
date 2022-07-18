@@ -393,12 +393,7 @@
     }
 
     .tag{
-        color: rgb(165, 0, 0);
-        border: 1px solid rgb(165, 0, 0);
-        border-radius: 5px;
-        font-size: 14px;
-        padding-left: 2px;
-        padding-right: 2px;
+        display: none;
     }
 
     .nav_btm{
