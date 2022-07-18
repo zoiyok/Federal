@@ -254,7 +254,7 @@
         font-size: 18px;
     }
 
-    .president{
+    .president,.passage-law,.passage-department{
         color: rgb(185, 185, 185);
         font-size: 12px;
         display: block;
