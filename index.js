@@ -28,6 +28,9 @@ function open_2022_1_law() {
 function open_2022_2_law() {
     window.location.href="2022_2_law.html";
 }
+function open_2022_3_law() {
+    window.location.href="2022_3_law.html";
+}
 function ShowHome() {
     window.location.href="index.html";
 }
